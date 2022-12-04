@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My page</title>
+    <link href="./css/style.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/ef4abc81da.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <section class="banner-container">
+        <img
+          class="banner-container_image"
+          src="https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg"
+        />
+        <h1 class="banner-container_text banner-container_text--title">
+          ADVENTURE TO KNOW PERU
+        </h1>
+        <h3 class="banner-container_text banner-container_text--subtitle">
+          Machupicchu
+        </h3>
+      </section>
+
+
+    </header>
+    <main class="container">
+      <section class="search-container">
+        <h3 class="container_text search-container__text">
+          Discover the secrets it hides
+        </h3>
+        <div class="search-container-query">
+          <div class="search-container-query__container-input">
+            <label for="queryInput"></label>
+            <input
+              class="search-container-query-container-input__input"
+              id="queryInput"
+              name="queryInput"
+              type="text"
+              placeholder="Find the news of interest"
+            />
+          </div>
+          <i
+            id="iconSearch"
+            class="iconSearch fa-solid fa-magnifying-glass"
+          ></i>s
+        </div>
+      </section>
+
+      <section class="filters-container">
+        <h3 class="container_text filters-container__text" >Filtra tu categoría favorita</h3>
+        <ul class="filters-container-list" id="list">
+          <li id="adventure" class="filters-container-list_item" >
+            Aventure
+          </li>
+          <li id="nature" class="filters-container-list_item" >
+            Nature
+          </li>
+          <li id="gastronomy" class="filters-container-list_item">
+            Gastronomy
+          </li>
+          <li id="entertainment" class="filters-container-list_item">
+            Entertainment
+          </li>
+          <li id="culture" class="filters-container-list_item" >
+            Culture
+          </li>
+        </ul>
+      </section>
+    </main>
+    <script type="module" src="./js/script.js"> </script>
+    
+  </body>
+</html>
