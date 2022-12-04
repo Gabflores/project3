@@ -1,0 +1,1 @@
+export const filters = document.body.getElementsByClassName("filters-container-list_item");
