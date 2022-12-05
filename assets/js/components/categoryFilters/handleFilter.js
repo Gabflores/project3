@@ -1,9 +1,8 @@
-import filteredList from "./filterbyCategory.js";
+import filterList from "./filterbyCategory.js";
 
 const handleFilter = (value) =>{
-
-    console.log("soy el filtro "+value);
-    filteredList(value);
+  let filteredList = filterList(value);
+  return filteredList;
 };
 
 export default handleFilter ;
