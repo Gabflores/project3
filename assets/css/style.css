@@ -138,5 +138,28 @@
  .pagesDiv__div{
   height:1.5rem;
   width: 1.5rem;
-  border: solid 1px grey;
+  border: solid 1px rgb(236, 143, 143);
  }
+ .cardscontainer-card{
+  margin: 2rem;
+ }
+ .card-containerauthor{}
+ .card-containerauthor__author{}
+ .card__title{}
+ .card__subtitle{}
+ .card-containerdate{}
+ .card-containerdate__date{}
+ .card-containerinformation{}
+ .card-containertext{}
+ .card-containerlikes{}
+ .card-containerlikes__likes{}
+ .card-containerlearn{}
+ .card-containerLearn__learn{}
+ .card-containertags{}
+ .card-containertags_tags{}
+ .card__img{
+  height: 15rem;
+  width:15rem;
+ }
+
+ 
