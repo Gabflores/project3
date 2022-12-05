@@ -1,7 +1,9 @@
-import {postsData} from "../../../data.js";
+import myRequest from "./request.js";
 import calculatePages from "../pagination/calculatepages.js";
-const filterList = (value) => {
-    let filteredPosts = postsData.filter ((post)=>{
+const filterList = async (value) => {
+
+    let listPosts = await myRequest();
+    let filteredPosts = listPosts.filter ((post)=>{
         return post.tags === value;
     });
     console.log(filteredPosts);
