@@ -7,7 +7,8 @@ const postsData = [
         author: "Pepito",
         dateCreation: "2022-12-03",
         likes: 5,
-        tags: "gastronomy"
+        tags: "gastronomy",
+        imageUrl: "https://images.pexels.com/photos/1419944/pexels-photo-1419944.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -18,7 +19,8 @@ const postsData = [
         author: "Pepito 2",
         dateCreation: "2022-12-04",
         likes: 10,
-        tags: "entertainment"
+        tags: "entertainment",
+        imageUrl: "https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -29,7 +31,8 @@ const postsData = [
         author: "Pepito 3",
         dateCreation: "2022-12-05",
         likes: 11,
-        tags: "adventure"
+        tags: "adventure",
+        imageUrl:"https://images.pexels.com/photos/3723037/pexels-photo-3723037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -40,7 +43,8 @@ const postsData = [
         author: "Pepito 4",
         dateCreation: "2022-12-06",
         likes: 12,
-        tags: "culture"
+        tags: "culture",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -51,7 +55,8 @@ const postsData = [
         author: "Pepito 5",
         dateCreation: "2022-12-07",
         likes: 13,
-        tags: "nature"
+        tags: "nature",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -62,7 +67,8 @@ const postsData = [
         author: "Pepito 6",
         dateCreation: "2022-12-03",
         likes: 14,
-        tags: "culture"
+        tags: "culture",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -73,7 +79,8 @@ const postsData = [
         author: "Pepito 7",
         dateCreation: "2022-12-03",
         likes: 15,
-        tags: "gastronomy"
+        tags: "gastronomy",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -84,7 +91,8 @@ const postsData = [
         author: "Pepito 8",
         dateCreation: "2022-12-03",
         likes: 16,
-        tags: "entertainment"
+        tags: "entertainment",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -95,7 +103,8 @@ const postsData = [
         author: "Pepito",
         dateCreation: "2022-12-03",
         likes: 5,
-        tags: "gastronomy"
+        tags: "gastronomy",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -106,7 +115,8 @@ const postsData = [
         author: "Pepito 2",
         dateCreation: "2022-12-04",
         likes: 10,
-        tags: "entertainment"
+        tags: "entertainment",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -117,7 +127,8 @@ const postsData = [
         author: "Pepito 3",
         dateCreation: "2022-12-05",
         likes: 11,
-        tags: "adventure"
+        tags: "adventure",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -128,7 +139,8 @@ const postsData = [
         author: "Pepito 4",
         dateCreation: "2022-12-06",
         likes: 12,
-        tags: "culture"
+        tags: "culture",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -139,7 +151,8 @@ const postsData = [
         author: "Pepito 5",
         dateCreation: "2022-12-07",
         likes: 13,
-        tags: "nature"
+        tags: "nature",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -150,7 +163,8 @@ const postsData = [
         author: "Pepito 6",
         dateCreation: "2022-12-03",
         likes: 14,
-        tags: "culture"
+        tags: "culture",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -161,7 +175,8 @@ const postsData = [
         author: "Pepito 7",
         dateCreation: "2022-12-03",
         likes: 15,
-        tags: "gastronomy"
+        tags: "gastronomy",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -172,7 +187,8 @@ const postsData = [
         author: "Pepito 8",
         dateCreation: "2022-12-03",
         likes: 16,
-        tags: "entertainment"
+        tags: "entertainment",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -183,7 +199,8 @@ const postsData = [
         author: "Pepito",
         dateCreation: "2022-12-03",
         likes: 5,
-        tags: "gastronomy"
+        tags: "gastronomy",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -194,7 +211,8 @@ const postsData = [
         author: "Pepito 2",
         dateCreation: "2022-12-04",
         likes: 10,
-        tags: "entertainment"
+        tags: "entertainment",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -205,7 +223,8 @@ const postsData = [
         author: "Pepito 3",
         dateCreation: "2022-12-05",
         likes: 11,
-        tags: "adventure"
+        tags: "adventure",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -216,7 +235,8 @@ const postsData = [
         author: "Pepito 4",
         dateCreation: "2022-12-06",
         likes: 12,
-        tags: "culture"
+        tags: "culture",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -227,7 +247,8 @@ const postsData = [
         author: "Pepito 5",
         dateCreation: "2022-12-07",
         likes: 13,
-        tags: "nature"
+        tags: "nature",
+        imageUrl:"https://images.pexels.com/photos/3723037/pexels-photo-3723037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -238,7 +259,8 @@ const postsData = [
         author: "Pepito 6",
         dateCreation: "2022-12-03",
         likes: 14,
-        tags: "culture"
+        tags: "culture",
+        imageUrl:"https://images.pexels.com/photos/3723037/pexels-photo-3723037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -249,7 +271,8 @@ const postsData = [
         author: "Pepito 7",
         dateCreation: "2022-12-03",
         likes: 15,
-        tags: "gastronomy"
+        tags: "gastronomy",
+        imageUrl:"",
 
     },
     {
@@ -260,7 +283,8 @@ const postsData = [
         author: "Pepito 8",
         dateCreation: "2022-12-03",
         likes: 16,
-        tags: "entertainment"
+        tags: "entertainment",
+        imageUrl:"https://images.pexels.com/photos/3723037/pexels-photo-3723037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -271,7 +295,8 @@ const postsData = [
         author: "Pepito",
         dateCreation: "2022-12-03",
         likes: 5,
-        tags: "gastronomy"
+        tags: "gastronomy",
+        imageUrl:"https://images.pexels.com/photos/3723037/pexels-photo-3723037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -282,7 +307,8 @@ const postsData = [
         author: "Pepito 2",
         dateCreation: "2022-12-04",
         likes: 10,
-        tags: "entertainment"
+        tags: "entertainment",
+        imageUrl:"https://images.pexels.com/photos/3723037/pexels-photo-3723037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -293,7 +319,8 @@ const postsData = [
         author: "Pepito 3",
         dateCreation: "2022-12-05",
         likes: 11,
-        tags: "adventure"
+        tags: "adventure",
+        imageUrl:"https://images.pexels.com/photos/3723037/pexels-photo-3723037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -304,7 +331,8 @@ const postsData = [
         author: "Pepito 4",
         dateCreation: "2022-12-06",
         likes: 12,
-        tags: "culture"
+        tags: "culture",
+        imageUrl:"https://images.pexels.com/photos/3723037/pexels-photo-3723037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -315,7 +343,8 @@ const postsData = [
         author: "Pepito 5",
         dateCreation: "2022-12-07",
         likes: 13,
-        tags: "nature"
+        tags: "nature",
+        imageUrl:"https://images.pexels.com/photos/3723037/pexels-photo-3723037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -326,7 +355,8 @@ const postsData = [
         author: "Pepito 6",
         dateCreation: "2022-12-03",
         likes: 14,
-        tags: "culture"
+        tags: "culture",
+        imageUrl:"https://images.pexels.com/photos/3723037/pexels-photo-3723037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -337,7 +367,8 @@ const postsData = [
         author: "Pepito 7",
         dateCreation: "2022-12-03",
         likes: 15,
-        tags: "gastronomy"
+        tags: "gastronomy",
+        imageUrl:"",
 
     },
     {
@@ -348,7 +379,8 @@ const postsData = [
         author: "Pepito 8",
         dateCreation: "2022-12-03",
         likes: 16,
-        tags: "entertainment"
+        tags: "entertainment",
+        imageUrl:"",
 
     },
     {
@@ -359,7 +391,8 @@ const postsData = [
         author: "Pepito",
         dateCreation: "2022-12-03",
         likes: 5,
-        tags: "gastronomy"
+        tags: "gastronomy",
+        imageUrl:"",
 
     },
     {
@@ -370,7 +403,8 @@ const postsData = [
         author: "Pepito 2",
         dateCreation: "2022-12-04",
         likes: 10,
-        tags: "entertainment"
+        tags: "entertainment",
+        imageUrl:"",
 
     },
     {
@@ -381,7 +415,8 @@ const postsData = [
         author: "Pepito 3",
         dateCreation: "2022-12-05",
         likes: 11,
-        tags: "adventure"
+        tags: "adventure",
+        imageUrl:"",
 
     },
     {
@@ -392,7 +427,8 @@ const postsData = [
         author: "Pepito 4",
         dateCreation: "2022-12-06",
         likes: 12,
-        tags: "culture"
+        tags: "culture",
+        imageUrl:"",
 
     },
     {
@@ -403,7 +439,8 @@ const postsData = [
         author: "Pepito 5",
         dateCreation: "2022-12-07",
         likes: 13,
-        tags: "nature"
+        tags: "nature",
+        imageUrl:"",
 
     },
     {
@@ -414,7 +451,8 @@ const postsData = [
         author: "Pepito 6",
         dateCreation: "2022-12-03",
         likes: 14,
-        tags: "culture"
+        tags: "culture",
+        imageUrl:"https://images.pexels.com/photos/3723037/pexels-photo-3723037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -425,7 +463,8 @@ const postsData = [
         author: "Pepito 7",
         dateCreation: "2022-12-03",
         likes: 15,
-        tags: "gastronomy"
+        tags: "gastronomy",
+        imageUrl:"https://images.pexels.com/photos/3723037/pexels-photo-3723037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -436,7 +475,8 @@ const postsData = [
         author: "Pepito 8",
         dateCreation: "2022-12-03",
         likes: 16,
-        tags: "entertainment"
+        tags: "entertainment",
+        imageUrl:"https://images.pexels.com/photos/3723037/pexels-photo-3723037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -447,7 +487,8 @@ const postsData = [
         author: "Pepito",
         dateCreation: "2022-12-03",
         likes: 5,
-        tags: "gastronomy"
+        tags: "gastronomy",
+        imageUrl:"https://images.pexels.com/photos/3723037/pexels-photo-3723037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -458,7 +499,8 @@ const postsData = [
         author: "Pepito 2",
         dateCreation: "2022-12-04",
         likes: 10,
-        tags: "entertainment"
+        tags: "entertainment",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -469,7 +511,8 @@ const postsData = [
         author: "Pepito 3",
         dateCreation: "2022-12-05",
         likes: 11,
-        tags: "adventure"
+        tags: "adventure",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -480,7 +523,8 @@ const postsData = [
         author: "Pepito 4",
         dateCreation: "2022-12-06",
         likes: 12,
-        tags: "culture"
+        tags: "culture",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -491,7 +535,8 @@ const postsData = [
         author: "Pepito 5",
         dateCreation: "2022-12-07",
         likes: 13,
-        tags: "nature"
+        tags: "nature",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -502,7 +547,8 @@ const postsData = [
         author: "Pepito 6",
         dateCreation: "2022-12-03",
         likes: 14,
-        tags: "culture"
+        tags: "culture",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -513,7 +559,8 @@ const postsData = [
         author: "Pepito 7",
         dateCreation: "2022-12-03",
         likes: 15,
-        tags: "gastronomy"
+        tags: "gastronomy",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -524,7 +571,8 @@ const postsData = [
         author: "Pepito 8",
         dateCreation: "2022-12-03",
         likes: 16,
-        tags: "entertainment"
+        tags: "entertainment",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -535,7 +583,8 @@ const postsData = [
         author: "Pepito",
         dateCreation: "2022-12-03",
         likes: 5,
-        tags: "gastronomy"
+        tags: "gastronomy",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -546,7 +595,8 @@ const postsData = [
         author: "Pepito 2",
         dateCreation: "2022-12-04",
         likes: 10,
-        tags: "entertainment"
+        tags: "entertainment",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -557,7 +607,8 @@ const postsData = [
         author: "Pepito 3",
         dateCreation: "2022-12-05",
         likes: 11,
-        tags: "adventure"
+        tags: "adventure",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -568,7 +619,8 @@ const postsData = [
         author: "Pepito 4",
         dateCreation: "2022-12-06",
         likes: 12,
-        tags: "culture"
+        tags: "culture",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -579,7 +631,8 @@ const postsData = [
         author: "Pepito 5",
         dateCreation: "2022-12-07",
         likes: 13,
-        tags: "nature"
+        tags: "nature",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -590,7 +643,8 @@ const postsData = [
         author: "Pepito 6",
         dateCreation: "2022-12-03",
         likes: 14,
-        tags: "culture"
+        tags: "culture",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -601,7 +655,8 @@ const postsData = [
         author: "Pepito 7",
         dateCreation: "2022-12-03",
         likes: 15,
-        tags: "gastronomy"
+        tags: "gastronomy",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -612,7 +667,8 @@ const postsData = [
         author: "Pepito 8",
         dateCreation: "2022-12-03",
         likes: 16,
-        tags: "entertainment"
+        tags: "entertainment",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -623,7 +679,8 @@ const postsData = [
         author: "Pepito",
         dateCreation: "2022-12-03",
         likes: 5,
-        tags: "gastronomy"
+        tags: "gastronomy",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -634,7 +691,8 @@ const postsData = [
         author: "Pepito 2",
         dateCreation: "2022-12-04",
         likes: 10,
-        tags: "entertainment"
+        tags: "entertainment",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -645,7 +703,8 @@ const postsData = [
         author: "Pepito 3",
         dateCreation: "2022-12-05",
         likes: 11,
-        tags: "adventure"
+        tags: "adventure",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -656,7 +715,8 @@ const postsData = [
         author: "Pepito 4",
         dateCreation: "2022-12-06",
         likes: 12,
-        tags: "culture"
+        tags: "culture",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -667,7 +727,8 @@ const postsData = [
         author: "Pepito 5",
         dateCreation: "2022-12-07",
         likes: 13,
-        tags: "nature"
+        tags: "nature",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -678,7 +739,8 @@ const postsData = [
         author: "Pepito 6",
         dateCreation: "2022-12-03",
         likes: 14,
-        tags: "culture"
+        tags: "culture",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -689,7 +751,8 @@ const postsData = [
         author: "Pepito 7",
         dateCreation: "2022-12-03",
         likes: 15,
-        tags: "gastronomy"
+        tags: "gastronomy",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
     {
@@ -700,7 +763,8 @@ const postsData = [
         author: "Pepito 8",
         dateCreation: "2022-12-03",
         likes: 16,
-        tags: "entertainment"
+        tags: "entertainment",
+        imageUrl:"https://images.pexels.com/photos/3059092/pexels-photo-3059092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     },
 ];
