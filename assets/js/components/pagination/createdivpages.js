@@ -1,5 +1,6 @@
-import cleanNode from "../utils/clean.js";
+import cleanNode from "../../utils/clean.js";
 import { containerPagination } from "../../utils/domElements.js";
+import handlepage from "./handlepage.js";
 
 const createdivspages = (result,numpages) => {
     
@@ -11,7 +12,7 @@ const createdivspages = (result,numpages) => {
         pagesDiv.classList.add("pagesDiv__div");
         pagesDiv.append(i+1);
         containerPagination.append(pagesDiv); 
-      //  pagesDiv.onclick = ()=>handlepage(result,i);
+        pagesDiv.onclick = ()=>handlepage(result,i);
     }
 }
 export default createdivspages;
