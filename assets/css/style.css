@@ -135,4 +135,8 @@
     cursor: pointer;
     
   }
- 
+ .pagesDiv__div{
+  height:1.5rem;
+  width: 1.5rem;
+  border: solid 1px grey;
+ }
