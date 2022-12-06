@@ -3,16 +3,16 @@ import handleCard from "../card/handleCard.js";
 
 export const showResults = (pagelist) => {
     pagelist.map(element => {
-      const titlePost = element.title;
-      const subtitlePost = element.subtitle;
-      const bodyPost = element.body;
-      const authorPost = element.author;
-      const datePost = element.dateCreation;
-      const likesPost = element.likes;
-      const tagsPost = element.tags;
-      const imageUrlPost = element.imageUrl;
+      const titleDetail = element.title;
+      const subtitleDetail = element.subtitle;
+      const bodyDetail = element.body;
+      const authorDetail = element.author;
+      const dateDetail = element.dateCreation;
+      const likesDetail = element.likes;
+      const tagsDetail = element.tags;
+      const imageUrlDetail = element.imageUrl;
 
-     let newcard = createCard(titlePost, subtitlePost, bodyPost, authorPost,datePost,likesPost,tagsPost,imageUrlPost);
+     let newcard = createCard(titleDetail, subtitleDetail, bodyDetail, authorDetail,dateDetail,likesDetail,tagsDetail,imageUrlDetail);
       newcard.onclick = () => handleCard (element.id);
 
     })
