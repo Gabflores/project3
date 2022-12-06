@@ -1,7 +1,7 @@
 import { containerCards} from "../../utils/domElements.js";
 //import {placeholderimage} from "../../../images/placeholderimage.png";
 
-export default function createCard(
+const createCard = (
   titleResult,
   subtitleResult,
   bodyResult,
@@ -10,7 +10,7 @@ export default function createCard(
   likesResult,
   tagsResult,
   imgUrlResult,
-) {
+) => {
   const cardBox = document.createElement("div");
   cardBox.classList.add("cardscontainer-card");
 
@@ -38,7 +38,9 @@ export default function createCard(
 
   const imgCard = document.createElement("img");
   imgCard.classList.add("card__img");
-  imgCard.setAttribute("src",imgUrlResult);
+  
+  const imgSource = imgUrlResult !== "" ? imgUrlResult : "../../../assets/images/placeholderimage.png";
+  imgCard.setAttribute("src",imgSource);
 
   const containerInformation = document.createElement("div");
   containerInformation.classList.add("card-containerinformation");
@@ -84,4 +86,9 @@ export default function createCard(
   containerInformation.append(containerTags);
   containerTags.append(tagsCard);
   containerCards.append(cardBox);
+
+  return cardBox;
+  
 }
+
+export default createCard;
