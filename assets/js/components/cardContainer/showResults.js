@@ -1,4 +1,5 @@
 import createCard from "../card/createCard.js";
+import handleCard from "../card/handleCard.js";
 
 export const showResults = (pagelist) => {
     pagelist.map(element => {
@@ -11,7 +12,9 @@ export const showResults = (pagelist) => {
       const tagsPost = element.tags;
       const imageUrlPost = element.imageUrl;
 
-      createCard(titlePost, subtitlePost, bodyPost, authorPost,datePost,likesPost,tagsPost,imageUrlPost);
+     let newcard = createCard(titlePost, subtitlePost, bodyPost, authorPost,datePost,likesPost,tagsPost,imageUrlPost);
+      newcard.onclick = () => handleCard (element.id);
+
     })
   };
 
