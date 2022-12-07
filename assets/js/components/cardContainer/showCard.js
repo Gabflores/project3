@@ -1,7 +1,9 @@
 import createCard from "../card/createCard.js";
 import handleCard from "../card/handleCard.js";
+//import { containerCards} from "../../utils/domElements.js";
+//import {principalNews} from "../../utils/domElements.js";
 
-export const showResults = (pagelist) => {
+export const showCard = (pagelist,container) => {
     pagelist.map(element => {
       const titleDetail = element.title;
       const subtitleDetail = element.subtitle;
@@ -12,12 +14,17 @@ export const showResults = (pagelist) => {
       const tagsDetail = element.tags;
       const imageUrlDetail = element.imageUrl;
 
-     let newcard = createCard(titleDetail, subtitleDetail, bodyDetail, authorDetail,dateDetail,likesDetail,tagsDetail,imageUrlDetail);
-      newcard.onclick = () => handleCard (element.id);
+      
 
-    
+     let newcard = createCard(titleDetail, subtitleDetail, bodyDetail, authorDetail,dateDetail,likesDetail,tagsDetail,imageUrlDetail,container);
+     console.log("newcard");
+     container.append(newcard); 
+     
+     newcard.onclick = () => handleCard (element.id);
+
+      
 
     })
   };
 
-  export default showResults;
+  export default showCard;
