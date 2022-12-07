@@ -11,7 +11,27 @@
     ></script>
   </head>
   <body>
-    <div id="detailsContainer" class="details"></div>
-    <script type="module" src = "./assets/js/components/pageDetails/details.js"></script>
-</body>
+    <section id="detailsContainer" class="details"></section>
+    <section id="newComments" class="newcomments">
+      <input id="newCommentInput" type="textarea" />
+      <select
+        id="newCommentAuthor"
+        class="newcomment-author"
+        name="author"
+        required
+        placeholder="Post author"
+      >
+        <option>María Fuentes</option>
+        <option>Rodrigo Mendez</option>
+        <option>Fernando Alvarado</option>
+        <option>Flor Lopez</option>
+      </select>
+      <button id="buttonComment">Comentar</button>
+    </section>
+    <section id="commentsContainer" class="comments-container"></section>
+    <script
+      type="module"
+      src="./assets/js/components/pageDetails/details.js"
+    ></script>
+  </body>
 </html>
