@@ -4,30 +4,23 @@ const fieldBody = document.getElementById("newCommentInput");
 
 const sendComment = async (id) => {
   //e.preventDefault();
-
-  const newcomment = {
-    id: id,
+  const updatecomment = ({
+      id: id,
     coments: {
       authorComment: fieldAuthor.value,
       bodyComment: fieldBody.value,
       dateComment: "21/09/21",
-    },
-  }
+    }
+  });
+  console.log(updatecomment);
 
-  console.log("nuevo comentario");
-
-/* await fetch("http://localhost:3000/postsData", {
-  headers: {
-    "Content-Type": "application/json",
-  },
-  method: "POST",
-  body: JSON.stringify(newcomment),
-}); */
+  const response = await fetch("http://localhost:3000/postsData", {
+  method: "PUT",
+  body: JSON.stringify(updatecomment),
+   headers: {
+    "Content-Type": 'application/json'
+  },  
+});
 }
 
-/*
- let uri = 'http://localhost:3000/postsData';
- const request = await fetch(uri);
- const resultList = await request.json();
- */
 export default sendComment;
