@@ -1,4 +1,4 @@
-import { containerCards} from "../../utils/domElements.js";
+
 //import {placeholderimage} from "../../../images/placeholderimage.png";
 
 const createCard = (
@@ -10,9 +10,12 @@ const createCard = (
   likesResult,
   tagsResult,
   imgUrlResult,
+  container
 ) => {
   const cardBox = document.createElement("div");
   cardBox.classList.add("cardscontainer-card");
+  //cardBox.classList.add("cardscontainer-card");
+  //cardBox.setAttribute("id","card"+container);
 
   const containerAuthor = document.createElement("div");
   containerAuthor.classList.add("card-containerauthor");
@@ -85,7 +88,10 @@ const createCard = (
   containerLikes.append(likesCard);
   containerInformation.append(containerTags);
   containerTags.append(tagsCard);
-  containerCards.append(cardBox);
+  
+  
+  
+  //containerCards.append(cardBox);
 
   return cardBox;
   
