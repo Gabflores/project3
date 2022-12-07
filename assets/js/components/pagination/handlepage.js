@@ -1,14 +1,15 @@
 
 import { containerCards } from "../../utils/domElements.js";
 import cleanNode from "../../utils/clean.js";
-import showResults from "../cardContainer/showResults.js";
+import showCard from "../cardContainer/showCard.js";
 
 
 const handlepage = (data,index) =>{
     console.log(data);
     cleanNode(containerCards);
-    showResults(data.slice((index)*10,(index)*10 +10)) ;
-    console.log(index);
+    console.log("momo");
+    showCard(data.slice((index)*10+3,(index)*10 +13),containerCards) ;
+    console.log("index"+index);
 }
 
 export default handlepage;
