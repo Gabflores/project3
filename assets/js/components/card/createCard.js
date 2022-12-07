@@ -1,4 +1,3 @@
-
 //import {placeholderimage} from "../../../images/placeholderimage.png";
 
 const createCard = (
@@ -41,9 +40,12 @@ const createCard = (
 
   const imgCard = document.createElement("img");
   imgCard.classList.add("card__img");
-  
-  const imgSource = imgUrlResult !== "" ? imgUrlResult : "../../../assets/images/placeholderimage.png";
-  imgCard.setAttribute("src",imgSource);
+
+  const imgSource =
+    imgUrlResult !== ""
+      ? imgUrlResult
+      : "../../../assets/images/placeholderimage.png";
+  imgCard.setAttribute("src", imgSource);
 
   const containerInformation = document.createElement("div");
   containerInformation.classList.add("card-containerinformation");
@@ -51,12 +53,16 @@ const createCard = (
   const containerText = document.createElement("div");
   containerText.classList.add("card-containertext");
 
+  const italicElement = document.createElement("i");
+  italicElement.classList.add("fa-solid", "fa-trash");
+
   const containerLikes = document.createElement("div");
   containerLikes.classList.add("card-containerlikes");
 
   const likesCard = document.createElement("p");
   likesCard.classList.add("card-containerlikes__likes");
-  likesCard.append(likesResult);
+  // likesCard.append(likesResult);
+  likesCard.append(italicElement);
 
   const containerLearn = document.createElement("div");
   containerLearn.classList.add("card-containerlearn");
@@ -88,13 +94,10 @@ const createCard = (
   containerLikes.append(likesCard);
   containerInformation.append(containerTags);
   containerTags.append(tagsCard);
-  
-  
-  
+
   //containerCards.append(cardBox);
 
   return cardBox;
-  
-}
+};
 
 export default createCard;
