@@ -11,17 +11,21 @@
     ></script>
   </head>
   <body>
-    <input type="text" class="form_title" name="title" required placeholder="Post Title" >
-    <input type="text" class="form_subtitle" name="subtitle" required placeholder="Post subitle" >
-    <textarea class="form_body" name="body" required placeholder="Post body"></textarea>
-    <select class="form_author" name="author" required placeholder="Post author">
+    <input id="postTitle" type="text" class="form_title" name="title" required placeholder="Post Title" >
+    <input id="postSubtitle" type="text" class="form_subtitle" name="subtitle" required placeholder="Post subitle" >
+    <textarea id="postBody" class="form_body" name="body" required placeholder="Post body"></textarea>
+    <select id="postAuthor" class="form_author" name="author" required placeholder="Post author">
         <option>María Fuentes</option>
         <option>Rodrigo Mendez</option>
         <option>Fernando Alvarado</option>
         <option>Flor Lopez</option>
         
     </select>
-    <input type="text" class="form_tags" name="tags" required placeholder="Post tags" >
+    <input id="postTags" type="text" class="form_tags" name="tags" required placeholder="Post tags" >
+    <input id="postImage" class="form_image" name="image" required placeholder="Post image" >
+    <button id="postRegister">Register</button>
+    <script type="module" src="./assets/js/components/form/registerForm.js"> </script>
+    
     
   </body>
 </html>
