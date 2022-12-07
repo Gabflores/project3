@@ -79,6 +79,7 @@ const showDetails = (
   likesDetail.classList.add(
     "detailbox-containerinformation-containertext-containerlikes__likes"
   );
+  likesDetail.setAttribute("id","numberLikes");
   likesDetail.append(likesPost);
 
   const containerTags = document.createElement("div");
@@ -104,13 +105,13 @@ const showDetails = (
   containerDate.append(dateDetail);
   containerText.append(titleDetail);
   containerText.append(subtitleDetail);
-  containerInformation.append(containerLikes);
-  containerLikes.append(likesDetail);
   containerInformation.append(imgDetail);
   containerText.append(bodyDetail);
   containerInformation.append(containerTags);
   containerTags.append(tagsDetail);
   containerDetails.append(detailBox);
+  containerInformation.append(containerLikes);
+  containerLikes.append(likesDetail);
 
   return containerDetails;
 };
