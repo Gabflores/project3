@@ -15,6 +15,8 @@ export const showResults = (pagelist) => {
      let newcard = createCard(titleDetail, subtitleDetail, bodyDetail, authorDetail,dateDetail,likesDetail,tagsDetail,imageUrlDetail);
       newcard.onclick = () => handleCard (element.id);
 
+    
+
     })
   };
 
