@@ -1,5 +1,6 @@
 let myState= false;
 const heartLikes = document.getElementById("buttonLikes");
+//import uploadLike from "./uploadLike";
 
 const updateLike = () =>{
     myState =! myState;
@@ -10,6 +11,7 @@ const updateLike = () =>{
     const currentLikes= myState  ?  myLikes+1 : myLikes-1;
     numLikes.removeChild(numLikes.firstChild);
     numLikes.append(currentLikes);
+ //   uploadLike();
 };
 
 export default updateLike;
