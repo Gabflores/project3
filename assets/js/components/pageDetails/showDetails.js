@@ -6,10 +6,11 @@ const showDetails = (
   datePost,
   likesPost,
   tagsPost,
-  imageUrlPost
+  imageUrlPost,
+  
 ) => {
-  const containerDetail = document.getElementById("detailsContainer");
-
+  const containerDetails = document.getElementById("detailsContainer");
+  
   const detailBox = document.createElement("div");
   detailBox.classList.add("detailbox");
 
@@ -82,14 +83,18 @@ const showDetails = (
 
   const containerTags = document.createElement("div");
   containerTags.classList.add(
-    "detailscontainer-detailbox-containerinformation-containertext-containertags"
+    "detailbox-containerinformation-containertext-containertags"
   );
 
   const tagsDetail = document.createElement("p");
   tagsDetail.classList.add(
-    "detailscontainer-detailbox-containerinformation-containertext-containertags_tags"
+    "detailbox-containerinformation-containertext-containertags_tags"
   );
   tagsDetail.append(tagsPost);
+
+  const commentsDetail = document.createElement("div");
+  commentsDetail.classList.add("detailbox-containerinformation-containercomments"
+  );
 
   detailBox.append(containerInformation);
   containerInformation.append(containerAuthor);
@@ -105,9 +110,9 @@ const showDetails = (
   containerText.append(bodyDetail);
   containerInformation.append(containerTags);
   containerTags.append(tagsDetail);
-  containerDetail.append(detailBox);
+  containerDetails.append(detailBox);
 
-  return containerDetail;
+  return containerDetails;
 };
 
 export default showDetails;
