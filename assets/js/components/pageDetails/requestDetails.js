@@ -15,8 +15,6 @@ const requestDetails = async (id) => {
   const imageUrlPost = post.imageUrl;
   const commentsPost = post.coments;
 
-  /*  console.log(likesPost); */
-
   showDetails(
     titlePost,
     subtitlePost,
@@ -28,7 +26,6 @@ const requestDetails = async (id) => {
     imageUrlPost
   );
 
-  console.log(commentsPost);
   showComents(commentsPost);
 };
 

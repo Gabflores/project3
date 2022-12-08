@@ -1,9 +1,8 @@
 import filterList from "./filterbyCategory.js";
 
-const handleFilter = (value) =>{
-
+const handleFilter = (value) => {
   let filteredList = filterList(value);
   return filteredList;
 };
 
-export default handleFilter ;
+export default handleFilter;

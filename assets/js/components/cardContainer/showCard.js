@@ -1,8 +1,6 @@
 import createCard from "../card/createCard.js";
 import createPrincipalCard from "../card/createPrincipalCard.js";
 import handleCard from "../card/handleCard.js";
-//import { containerCards} from "../../utils/domElements.js";
-//import {principalNews} from "../../utils/domElements.js";
 
 export const showCard = (pagelist, container, cardType) => {
   pagelist.map((element) => {
@@ -42,7 +40,6 @@ export const showCard = (pagelist, container, cardType) => {
       );
     }
 
-    console.log("newcard");
     container.append(newCard);
 
     newCard.onclick = () => handleCard(element.id);
