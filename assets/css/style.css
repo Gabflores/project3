@@ -229,10 +229,10 @@ main {
   align-items: center;
   justify-content: flex-start;
   width: 100%;
-  background-color: rgba(241, 219, 179, 0.776);
+  background-color: rgba(249, 235, 212, 0.776);
 }
 .cardscontainer-cardprincipal {
-  width: 70%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: start;
