@@ -6,8 +6,6 @@ const calculatePages = (result) => {
     ? (numPages = Math.trunc((result.length - 3) / 10))
     : (numPages = Math.trunc((result.length - 3) / 10) + 1);
   createdivspages(result, numPages);
-  console.log(result.length / 10);
-  console.log(numPages);
   return numPages;
 };
 

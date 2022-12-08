@@ -5,7 +5,6 @@ const fieldBody = document.getElementById("newCommentInput");
 
 const sendComment = async (id) => {
   const previousComments = await getPostComments(id);
-  console.log(previousComments);
   const updatedComments = {
     coments: [
       ...previousComments,

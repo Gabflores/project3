@@ -16,8 +16,6 @@ const registerPost = () => {
     tags: fieldTags.value,
     imageUrl: fieldImage.value,
   };
-  console.log(newPost);
-  console.log("nuevo");
 };
 
 export default registerPost;

@@ -10,7 +10,6 @@ const filterList = async (value) => {
   let filteredPosts = listPosts.filter((post) => {
     return post.tags === value;
   });
-  console.log(filteredPosts);
   calculatePages(filteredPosts);
   cleanNode(containerCards);
   showCard(filteredPosts.slice(3, 13), containerCards, "normal");
