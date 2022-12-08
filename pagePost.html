@@ -13,8 +13,12 @@
   <body>
     <section id="detailsContainer" class="details"></section>
     <i id="buttonLikes" class="fa-solid fa-heart button-heart"></i>
-    <section id="newComments" class="newcomments">
-      <input id="newCommentInput" type="textarea" />
+    <section id="newComments" class="details-newcomments">
+      <input
+        id="newCommentInput"
+        type="textarea"
+        class="details-newcomments__input"
+      />
       <select
         id="newCommentAuthor"
         class="newcomment-author"
@@ -30,6 +34,7 @@
       <button id="buttonComment">Comentar</button>
     </section>
     <section id="commentsContainer" class="comments-container"></section>
+    <button id="deletePost">DELETE POST</button>
     <script
       type="module"
       src="./assets/js/components/pageDetails/details.js"
