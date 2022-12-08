@@ -2,11 +2,8 @@ import { getPost, getPostComments } from "../../../../services/post.service.js";
 
 const fieldAuthor = document.getElementById("newCommentAuthor");
 const fieldBody = document.getElementById("newCommentInput");
-//const fieldDate = document.getElementById("commentDate");
 
 const sendComment = async (id) => {
-  // e.preventDefault();
-
   const previousComments = await getPostComments(id);
   console.log(previousComments);
   const updatedComments = {

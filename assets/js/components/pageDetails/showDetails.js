@@ -6,11 +6,10 @@ const showDetails = (
   datePost,
   likesPost,
   tagsPost,
-  imageUrlPost,
-  
+  imageUrlPost
 ) => {
   const containerDetails = document.getElementById("detailsContainer");
-  
+
   const detailBox = document.createElement("div");
   detailBox.classList.add("detailbox");
 
@@ -55,10 +54,8 @@ const showDetails = (
   bodyDetail.append(bodyPost);
 
   const imgDetail = document.createElement("img");
-  imgDetail.classList.add(
-    "detailbox-containerinformation__img"
-  );
-  
+  imgDetail.classList.add("detailbox-containerinformation__img");
+
   const imgSource =
     imageUrlPost !== ""
       ? imageUrlPost
@@ -79,7 +76,7 @@ const showDetails = (
   likesDetail.classList.add(
     "detailbox-containerinformation-containertext-containerlikes__likes"
   );
-  likesDetail.setAttribute("id","numberLikes");
+  likesDetail.setAttribute("id", "numberLikes");
   likesDetail.append(likesPost);
 
   const containerTags = document.createElement("div");
@@ -94,7 +91,8 @@ const showDetails = (
   tagsDetail.append(tagsPost);
 
   const commentsDetail = document.createElement("div");
-  commentsDetail.classList.add("detailbox-containerinformation-containercomments"
+  commentsDetail.classList.add(
+    "detailbox-containerinformation-containercomments"
   );
 
   detailBox.append(containerInformation);

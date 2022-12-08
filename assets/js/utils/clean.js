@@ -1,11 +1,7 @@
 export const cleanNode = (node) => {
+  while (node.firstChild) {
+    node.removeChild(node.firstChild);
+  }
+};
 
-    while (node.firstChild) {
-  
-      node.removeChild(node.firstChild);
-  
-    }
-  
-  };
-
-  export default cleanNode;
+export default cleanNode;

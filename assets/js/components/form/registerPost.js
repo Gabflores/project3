@@ -18,14 +18,6 @@ const registerPost = () => {
   };
   console.log(newPost);
   console.log("nuevo");
-
-  /* await fetch("http://localhost:3000/postsData", {
-    method: "POST",
-    body: JSON.stringify(newPost),
-    headers: {
-      "Content-Type": "application/json",
-    },
-  }); */
 };
 
 export default registerPost;
