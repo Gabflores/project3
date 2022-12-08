@@ -1,5 +1,3 @@
-//import {placeholderimage} from "../../../images/placeholderimage.png";
-
 const createCard = (
   titleResult,
   subtitleResult,
@@ -13,9 +11,6 @@ const createCard = (
 ) => {
   const cardBox = document.createElement("div");
   cardBox.classList.add("cardscontainer-card");
-  //cardBox.classList.add("cardscontainer-card");
-  //cardBox.setAttribute("id","card"+container);
-
   const containerAuthor = document.createElement("div");
   containerAuthor.classList.add("card-containerauthor");
 
@@ -61,7 +56,6 @@ const createCard = (
 
   const likesCard = document.createElement("p");
   likesCard.classList.add("card-containerlikes__likes");
-  // likesCard.append(likesResult);
   likesCard.append(italicElement);
 
   const containerLearn = document.createElement("div");
@@ -70,7 +64,6 @@ const createCard = (
   const learnCard = document.createElement("a");
   learnCard.classList.add("card-containerLearn__learn");
   learnCard.append("LEARN MORE ->");
-  //learnCard.setAttribute("href", urlResult);
   learnCard.setAttribute("target", "_blank");
   learnCard.setAttribute("rel", "noopener noreferrer");
 
@@ -94,8 +87,6 @@ const createCard = (
   containerLikes.append(likesCard);
   containerInformation.append(containerTags);
   containerTags.append(tagsCard);
-
-  //containerCards.append(cardBox);
 
   return cardBox;
 };
