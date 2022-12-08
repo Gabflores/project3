@@ -10,7 +10,7 @@ const handlepage = (data, index) => {
   console.log("index" + index);
 
   window.scrollTo({
-    top: 350,
+    top: 2000,
     behavior: "auto",
   });
 };
