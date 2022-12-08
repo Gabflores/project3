@@ -12,7 +12,7 @@ const createPrincipalCard = (
   container
 ) => {
   const cardBox = document.createElement("div");
-  cardBox.classList.add("cardscontainer-card");
+  cardBox.classList.add("cardscontainer-cardprincipal");
   //cardBox.classList.add("cardscontainer-card");
   //cardBox.setAttribute("id","card"+container);
 
@@ -24,15 +24,15 @@ const createPrincipalCard = (
   authorCard.append(authorResult);
 
   const titleCard = document.createElement("p");
-  titleCard.classList.add("card__title");
+  titleCard.classList.add("cardprincipal__title");
   titleCard.append(titleResult);
 
   const subtitleCard = document.createElement("p");
-  subtitleCard.classList.add("card__subtitle");
+  subtitleCard.classList.add("cardprincipal__subtitle");
   subtitleCard.append(subtitleResult);
 
   const containerDate = document.createElement("div");
-  containerDate.classList.add("card-containerdate");
+  containerDate.classList.add("cardprincipal-containerdate");
 
   const dateCard = document.createElement("p");
   dateCard.classList.add("card-containerdate__date");
@@ -48,17 +48,20 @@ const createPrincipalCard = (
   imgCard.setAttribute("src", imgSource);
 
   const containerInformation = document.createElement("div");
-  containerInformation.classList.add("card-containerinformation");
+  containerInformation.classList.add("cardprincipal-containerinformation");
 
   const containerText = document.createElement("div");
   containerText.classList.add("card-containertext");
 
   const containerLikes = document.createElement("div");
-  containerLikes.classList.add("card-containerlikes");
+  containerLikes.classList.add("cardprincipal-containerlikes");
 
   const likesCard = document.createElement("p");
   likesCard.classList.add("card-containerlikes__likes");
   likesCard.append(likesResult);
+
+  const likesIconCard = document.createElement("i");
+  likesIconCard.classList.add("fa-solid", "fa-heart");
 
   const containerLearn = document.createElement("div");
   containerLearn.classList.add("card-containerlearn");
@@ -84,12 +87,13 @@ const createPrincipalCard = (
   containerDate.append(dateCard);
   containerText.append(titleCard);
   containerText.append(subtitleCard);
-  containerText.append(containerLearn);
-  containerLearn.append(learnCard);
-  containerInformation.append(containerLikes);
+  containerLikes.append(likesIconCard);
   containerLikes.append(likesCard);
+  containerDate.append(containerLikes);
   containerInformation.append(containerTags);
   containerTags.append(tagsCard);
+  containerInformation.append(containerLearn);
+  containerLearn.append(learnCard);
 
   //containerCards.append(cardBox);
 
