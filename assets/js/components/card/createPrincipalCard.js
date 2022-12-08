@@ -1,5 +1,3 @@
-//import {placeholderimage} from "../../../images/placeholderimage.png";
-
 const createPrincipalCard = (
   titleResult,
   subtitleResult,
@@ -13,9 +11,6 @@ const createPrincipalCard = (
 ) => {
   const cardBox = document.createElement("div");
   cardBox.classList.add("cardscontainer-cardprincipal");
-  //cardBox.classList.add("cardscontainer-card");
-  //cardBox.setAttribute("id","card"+container);
-
   const containerAuthor = document.createElement("div");
   containerAuthor.classList.add("card-containerauthor");
 
@@ -69,7 +64,6 @@ const createPrincipalCard = (
   const learnCard = document.createElement("a");
   learnCard.classList.add("card-containerLearn__learn");
   learnCard.append("LEARN MORE ->");
-  //learnCard.setAttribute("href", urlResult);
   learnCard.setAttribute("target", "_blank");
   learnCard.setAttribute("rel", "noopener noreferrer");
 
@@ -94,8 +88,6 @@ const createPrincipalCard = (
   containerTags.append(tagsCard);
   containerInformation.append(containerLearn);
   containerLearn.append(learnCard);
-
-  //containerCards.append(cardBox);
 
   return cardBox;
 };
