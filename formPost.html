@@ -11,21 +11,80 @@
     ></script>
   </head>
   <body>
-    <input id="postTitle" type="text" class="form_title" name="title" required placeholder="Post Title" >
-    <input id="postSubtitle" type="text" class="form_subtitle" name="subtitle" required placeholder="Post subitle" >
-    <textarea id="postBody" class="form_body" name="body" required placeholder="Post body"></textarea>
-    <select id="postAuthor" class="form_author" name="author" required placeholder="Post author">
-        <option>María Fuentes</option>
-        <option>Rodrigo Mendez</option>
-        <option>Fernando Alvarado</option>
-        <option>Flor Lopez</option>
-        
-    </select>
-    <input id="postTags" type="text" class="form_tags" name="tags" required placeholder="Post tags" >
-    <input id="postImage" class="form_image" name="image" required placeholder="Post image" >
-    <button id="postRegister">Register</button>
-    <script type="module" src="./assets/js/components/form/registerForm.js"> </script>
-    
-    
+    <form class="registerform">
+      <div class="registerform-title registerform-div">
+        <label for="postTitle registerform-label">Post Title </label>
+        <input
+          id="postTitle"
+          type="text"
+          class="form_title registerform_input"
+          name="title"
+          required
+          placeholder="Post Title"
+        />
+      </div>
+      <div class="registerform-subtitle registerform-div">
+        <label for="postSubtitle registerform-label">Post Subitle </label>
+        <input
+          id="postSubtitle"
+          type="text"
+          class="form_subtitle registerform_input"
+          name="subtitle"
+          required
+          placeholder="Post subitle"
+        />
+      </div>
+      <div class="registerform-body registerform-div">
+        <label for="postBody registerform-label">Post body</label>
+        <textarea
+          id="postBody"
+          class="form_body registerform_input"
+          name="body"
+          required
+          placeholder="Post body"
+        ></textarea>
+      </div>
+      <div class="registerform-author registerform-div">
+        <label for="postAuthor registerform-label">Post author</label>
+        <select
+          id="postAuthor"
+          class="form_author registerform_input"
+          name="author"
+          required
+          placeholder="Post author"
+        >
+          <option>María Fuentes</option>
+          <option>Rodrigo Mendez</option>
+          <option>Fernando Alvarado</option>
+          <option>Flor Lopez</option>
+        </select>
+      </div>
+      <div class="registerform-tags registerform-div">
+        <label for="postTags registerform-label">Post Tags</label>
+        <input
+          id="postTags"
+          type="text"
+          class="form_tags registerform_input"
+          name="tags"
+          required
+          placeholder="Post tags"
+        />
+      </div>
+      <div class="registerform-image registerform-div">
+        <label for="postImage registerform-label">Post Image</label>
+        <input
+          id="postImage"
+          class="form_image registerform_input"
+          name="image"
+          required
+          placeholder="Post image"
+        />
+      </div>
+      <button id="postRegister">Register</button>
+    </form>
+    <script
+      type="module"
+      src="./assets/js/components/form/registerForm.js"
+    ></script>
   </body>
 </html>
